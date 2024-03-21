@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
 	 font: Arial;
 	 font-weight:normal;
@@ -104,3 +105,175 @@ video {
 	border-color: rgb(200,70,50) ;
 	background-color: hsla(0, 50%, 50%);
 }
+=======
+
+html {
+	 font: Arial;
+	 font-weight:normal;
+	 font-variant:normal;
+	 font-size: 20px;
+	 font-family: sans-serif;
+	 font-style: normal;
+	}
+header, footer {
+	text-align: center;
+	border:5px solid;
+	border-color:rgb(200,10,50);
+	background-image:linear-gradient(brown,red);
+	width: 100%;
+	max-width: 15000px;
+	padding: 6px;
+
+
+}
+footer{
+	clear:both:;
+}
+h1, h2 {
+	text-align: center;
+	color:brown;
+	font-variant: small-caps;
+}
+
+figcaption {
+	color:rgb(200, 0, 0);
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 1.1em;
+
+}
+q {
+	font-style: italic;
+	font-family: cursive;
+	font-size: 0.85em;
+}
+footer p {
+	font-size: 0.8em;
+}
+body {
+	width: 100%;
+	max-width: 1500px;
+	padding: 5%;
+	margin: auto;
+}
+.main-section-figure {
+	padding: 10px;
+	margin: 20px;
+	text-align: center;
+}
+.main-section-figure img{
+	padding: 5px;
+	width: 50%;
+	height: 50%;
+	max-height: 600px;
+	margin: auto;
+}
+.main-section {
+	background-color: hsla(351, 94%, 84%);
+	border-color: rgb(200, 10, 50);
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	text-align: center;
+
+}
+video {
+	padding: 0.5em;
+	width: 50%;
+	height: 75%;
+	border-color:#fc0335;
+	border-color: 0.1em;
+	border-style: solid;
+	border-radius: 25px;
+}
+#bio {
+	text-align: left;
+}
+#quote{
+	padding: 12px;
+	border-color:#fc0335;
+	border-style: solid;
+	border-width: 0.1em;
+	box-shadow:darkred 5px 5px 2px;
+	
+}
+#quote q{
+	padding: 0.1em;
+	color-brown
+
+	box
+
+}
+#absolute-image {
+	border:5px solid;
+	border-radius: 20px;
+	border-color: rgb(200,70,50) ;
+	background-color: hsla(0, 50%, 50%);
+}
+#relative-image {
+	border:5px solid;
+	border-radius: 20px;
+	border-color: rgb(200,70,50) ;
+	background-color: hsla(0, 50%, 50%);
+}
+table,th,td{
+	border:1px solid;
+}
+nav a {
+	display: inline-block;
+	font-style:italic;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: darkred;
+	background-color: hsla(340, 50%, 84%);
+	margin: 7px;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	justify-content: space-around;
+	display: flex;
+}
+nav li{
+	margin-right: 10px;
+}
+nav a:hover{
+	background-color: darkred;
+	color: hsla(340, 50%, 84%)
+
+
+}
+aside h3{
+	font-variant: small-caps;
+	color: darkred;
+	text-align: center;
+}
+aside table{
+	border:1px solid darkred;
+	width: 100%;	
+}
+aside th,aside td{
+	font-weight: bold;
+	text-align: center;
+}
+aside ul,aside li{
+	list-style-type: none;
+	margin-bottom: 10px;
+	line-height: 1.5;
+}
+#navblock{
+	float: left;
+	width: 50%;
+}
+#mainblock{
+	float:left;
+	width:70%;
+}
+#asideblock{
+	float:left;
+	width: 30%;
+}
+>>>>>>> 4dd6add036ec7ad1c65edbb69c1a7da05de2184e
