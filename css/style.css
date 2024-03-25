@@ -36,10 +36,14 @@ q {
 	font-family: cursive;
 	font-size: 0.85em;
 }
+footer{
+	clear:both;
+}
 footer p {
 	font-size: 0.8em;
 }
 body {
+	background-color: hsla(351, 94%, 84%);
 	width: 100%;
 	max-width: 1500px;
 	padding: 5%;
@@ -276,4 +280,5 @@ aside ul,aside li{
 	float:left;
 	width: 30%;
 }
+@media screen and(max-width:800px)
 >>>>>>> 4dd6add036ec7ad1c65edbb69c1a7da05de2184e
